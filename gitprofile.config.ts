@@ -85,10 +85,8 @@ const CONFIG = {
     "Seaborn",
     "Streamlit",
     "SQL",
-    "ETL",
     "API ingestion"
     "Time Series Analysis",
-    "Data Visualization",
   ],
   educations: [
     {
