@@ -13,10 +13,9 @@ const CONFIG = {
   projects: {
     github: {
       display: true, // Display GitHub projects?
-      header: 'Konstantin Lokotunin | Data Analytics Portfolio',
-      mode: 'automatic', // Mode can be: 'automatic' or 'manual'
+      header: '⚡ Featured Projects',
       automatic: {
-        sortBy: 'stars', // Sort projects by 'stars' or 'updated'
+        sortBy: 'updated', // Sort projects by 'stars' or 'updated'
         limit: 4, // How many projects to display.
         exclude: {
           forks: false, // Forked projects will not be displayed if set to true.
@@ -25,37 +24,37 @@ const CONFIG = {
       },
       manual: {
         // Properties for manually specifying projects
-        projects: ['arifszn/gitprofile', 'arifszn/pandora'], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
+        projects: [], // List of repository names to display. example: ['arifszn/my-project1', 'arifszn/my-project2']
       },
     },
     external: {
-      header: 'My Projects',
+      header: '',
       // To hide the `External Projects` section, keep it empty.
       projects: [
         {
-          title: 'Project Name',
+          title: '',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: '',
         },
         {
-          title: 'Project Name',
+          title: '',
           description:
-            'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed euismod, nunc ut.',
+            '',
           imageUrl:
-            'https://img.freepik.com/free-vector/illustration-gallery-icon_53876-27002.jpg',
-          link: 'https://example.com',
+            '',
+          link: '',
         },
       ],
     },
   },
-  seo: { title: 'Public Portfolio', description: 'Modular Data Analytics & Python Projects', imageURL: '' },
+  seo: { title: 'Data Analytics Portfolio', description: 'Designing data-driven systems that decode energy markets, time-series trends, and real-world dynamics through analytics and visualization.', imageURL: 'https://raw.githubusercontent.com/konstantinlokotunin/konstantinlokotunin/main/Github_Profile_Banner.png' },
   social: {
     linkedin: 'https://www.linkedin.com/in/konstantinlokotunin/',
-    x: 'arif_szn',
-    mastodon: 'arifszn@mastodon.social',
+    x: '',
+    mastodon: '',
     researchGate: '',
     facebook: '',
     instagram: '',
@@ -65,97 +64,108 @@ const CONFIG = {
     udemy: '',
     dribbble: '',
     behance: '',
-    medium: 'arifszn',
-    dev: 'arifszn',
+    medium: '',
+    dev: '',
     stackoverflow: '', // example: '1/jeff-atwood'
     discord: '',
     telegram: '',
-    website: 'https://www.arifszn.com',
+    website: 'https://flowcv.me/konstantin-lokotunin',
     phone: '',
-    email: '',
+    email: 'konstantin.lokotunin@sciencespo.fr',
   },
   resume: {
     fileUrl:
-      'https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf', // Empty fileUrl will hide the `Download Resume` button.
+      'https://flowcv.me/konstantin-lokotunin/Lebenslauf_Konstantin_LOKOTUNIN_EN-o20sjitmba.pdf', // Empty fileUrl will hide the `Download Resume` button.
   },
   skills: [
-    'PHP',
-    'Laravel',
-    'JavaScript',
-    'React.js',
-    'Node.js',
-    'Nest.js',
-    'MySQL',
-    'PostgreSQL',
-    'Git',
-    'Docker',
-    'PHPUnit',
-    'CSS',
-    'Antd',
-    'Tailwind',
-  ],
-  experiences: [
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'September 2021',
-      to: 'Present',
-      companyLink: 'https://example.com',
-    },
-    {
-      company: 'Company Name',
-      position: 'Position',
-      from: 'July 2019',
-      to: 'August 2021',
-      companyLink: 'https://example.com',
-    },
-  ],
-  certifications: [
-    {
-      name: 'Lorem ipsum',
-      body: 'Lorem ipsum dolor sit amet',
-      year: 'March 2022',
-      link: 'https://example.com',
-    },
+    "Python",
+    "Pandas",
+    "NumPy",
+    "Matplotlib",
+    "Seaborn",
+    "Streamlit",
+    "SQL",
+    "ETL",
+    "API ingestion"
+    "Time Series Analysis",
+    "Data Visualization",
   ],
   educations: [
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2015',
-      to: '2019',
+      institution: 'CODERS.BAY Vienna',
+      degree: 'Diploma in Data Engineering & AI Development',
+      from: '2026',
+      to: 'Present',
+      institutionLink: 'https://codersbay.wien',
     },
     {
-      institution: 'Institution Name',
-      degree: 'Degree',
-      from: '2012',
-      to: '2014',
+      institution: 'Sciences Po Paris',
+      degree: 'Double Master of Arts in International Energy',
+      from: '2019',
+      to: '2021',
+      institutionLink: 'https://www.sciencespo.fr/en/',
+    },
+  ],
+    experiences: [
+    {
+      company: 'BDO Assurance GmbH Wirtschaftsprüfungs- und Steuerberatungsgesellschaft',
+      position: 'Senior Associate - ESG & Sustainability Services',
+      from: 'January 2024',
+      to: 'September 2025',
+      companyLink: 'https://www.bdo.at/de-at/home-at',
+    },
+    {
+      company: 'PwC Österreich GmbH Wirtschaftsprüfungsgesellschaft',
+      position: 'Associate - ESG & Sustainability Services',
+      from: 'September 2022',
+      to: 'December 2023',
+      companyLink: 'https://www.pwc.at',
+    },
+  ],
+    languages: [
+    {
+      language: 'German',
+      level: 'Native, C2',
+      language: 'Russian',
+      level: 'Native, C2',
+      language: 'English',
+      level: 'Fluent, C2',
+      language: 'French',
+      level: 'Fluent, C1',
+    },
+  ],
+    certifications: [
+    {
+      name: 'IELTS overall score: 8.0 (CEFR C1)',
+      body: 'British Council',
+      year: 'October 2017',
+      link: '',
     },
   ],
   publications: [
     {
-      title: 'Publication Title',
+      title: '',
       conferenceName: '',
-      journalName: 'Journal Name',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      journalName: '',
+      authors: '',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '',
     },
     {
-      title: 'Publication Title',
-      conferenceName: 'Conference Name',
+      title: '',
+      conferenceName: '',
       journalName: '',
-      authors: 'John Doe, Jane Smith',
-      link: 'https://example.com',
+      authors: '',
+      link: '',
       description:
-        'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+        '',
     },
   ],
   // Display articles from your medium or dev account. (Optional)
   blog: {
     source: 'dev', // medium | dev
-    username: 'arifszn', // to hide blog section, keep it empty
+    username: '', // to hide blog section, keep it empty
     limit: 2, // How many articles to display. Max is 10.
   },
   googleAnalytics: {
@@ -164,15 +174,15 @@ const CONFIG = {
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: { id: '', snippetVersion: 6 },
   themeConfig: {
-    defaultTheme: 'lofi',
+    defaultTheme: 'business',
 
     // Hides the switch in the navbar
     // Useful if you want to support a single color mode
-    disableSwitch: false,
+    disableSwitch: true,
 
     // Should use the prefers-color-scheme media-query,
     // using user system preferences, instead of the hardcoded defaultTheme
-    respectPrefersColorScheme: false,
+    respectPrefersColorScheme: true,
 
     // Display the ring in Profile picture
     displayAvatarRing: true,
@@ -219,11 +229,7 @@ const CONFIG = {
   },
 
   // Optional Footer. Supports plain text or HTML.
-  footer: `Made with <a 
-      class="text-primary" href="https://github.com/arifszn/gitprofile"
-      target="_blank"
-      rel="noreferrer"
-    >GitProfile</a> and ❤️`,
+  footer: `⚡ Built with data, designed for insight`,
 
   enablePWA: true,
 };
