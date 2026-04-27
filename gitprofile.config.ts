@@ -77,7 +77,7 @@ const CONFIG = {
   educations: [
     {
       institution: 'CODERS.BAY Vienna',
-      degree: 'Diploma in Data Engineering & AI Development',
+      degree: 'Diploma in Data Engineering & AI',
       from: '2026',
       to: 'Present',
     },
@@ -86,6 +86,12 @@ const CONFIG = {
       degree: 'Double Master of Arts in International Energy',
       from: '2019',
       to: '2021',
+    },
+    {
+      institution: 'Sciences Po Paris',
+      degree: 'Bachelor of Arts in Public Affairs & Governance',
+      from: '2016',
+      to: '2019',
     },
   ],
     experiences: [
@@ -102,6 +108,20 @@ const CONFIG = {
       from: 'September 2022',
       to: 'December 2023',
       companyLink: 'https://www.pwc.at',
+    },
+    {
+      company: 'KPMG Advisory GmbH',
+      position: 'Regulatory Affairs Intern',
+      from: 'November 2021',
+      to: 'August 2022',
+      companyLink: 'https://kpmg.com/at/de.html',
+    },
+    {
+      company: 'OMV Exploration & Production GmbH',
+      position: 'Project Management & Strategy Intern',
+      from: 'January 2021',
+      to: 'July 2021',
+      companyLink: 'https://www.omv.at/de,
     },
   ],
     certifications: [
